@@ -23,6 +23,19 @@
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
+  
+  <extension point="xbmc.addon.repository" name="Kodi-Mexico official Repo">
+		<info compressed="false">https://raw.githubusercontent.com/kodimexico/miNuevoRepo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/kodimexico/miNuevoRepo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/kodimexico/miNuevoRepo/master</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Kodi-Mexico official Repo</summary>
+   		<description lang="en">Instala los Addons de Kodi Mexico.</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+  
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Lista de canales GplayMexico</summary>
     <description lang="en">Peliculas y Mas</description>
